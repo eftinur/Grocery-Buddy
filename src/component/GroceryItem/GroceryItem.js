@@ -4,10 +4,10 @@ import { AiFillDelete } from "react-icons/ai";
 
 const GroceryItem = ({ list, removeItem, editItem }) => {
   return (
-    <div className="my-4">
-      <h2 className="text-xl uppercase">Grocery Items</h2>
+    <div className="my-12">
+      <h2 className="text-xl uppercase">Your Grocery List</h2>
       {list.map((item, index) => (
-        <article key={index} className="flex justify-between items-center border-b py-3">
+        <article key={index} className="flex justify-between items-center border-b border-indigo-700 py-3">
           <h3>{item.title}</h3>
           <div>
             <button

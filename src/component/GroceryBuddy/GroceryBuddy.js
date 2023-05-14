@@ -67,9 +67,9 @@ const GroceryBuddy = () => {
   }, [list]);
 
   return (
-    <section className="max-w-[1240px] mx-auto min-h-screen py-12">
-      <div className="w-3/4 mx-auto border px-4 py-8 rounded-lg">
-        <h1 className="text-2xl font-medium text-center">Grocery Buddy</h1>
+    <section className="max-w-[1240px] mx-auto min-h-screen py-12 px-4">
+      <div className="w-full mx-auto border border-indigo-700 px-4 py-8 rounded-lg">
+        <h1 className="text-2xl font-medium text-center uppercase">Grocery Buddy</h1>
         <form
           onSubmit={handleSubmit}
           className="flex justify-center gap-4 my-4"
